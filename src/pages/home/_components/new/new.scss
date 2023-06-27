@@ -1,0 +1,35 @@
+.new {
+    // position: absolute;
+        // max-width: 1400px;
+        // object-fit: cover;
+
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        font-family: inter-ExtraBold;
+    }
+
+    &_slider {
+        // max-width: 1440px;
+    }
+
+    h2 {
+        padding: 70px 50px;
+    }
+
+    &__slider {
+        position: relative;
+        max-width: 250px;
+        border: 1px solid #E2E2E2;
+        border-radius: 18px;
+        height: 360px;
+        border-radius: 2px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    &__slider p {
+        position: absolute;
+        text-align: center;
+    }
+}
